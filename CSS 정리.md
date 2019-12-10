@@ -5,22 +5,32 @@
 > 사용법
 
 1. HTML 문서에 <style> </style>을 삽입하여 CSS를 작성
+
 2.  style= " " 속성으로 삽입
+
+    ​
 
 
 
 > CSS의 등장 배경
 
 1. HTML로 디자인하는 것의 한계
+
 2. HTML은 정보에 집중하고 디자인은 CSS에 맡김
+
+   ​
 
 
 
 > CSS의 장점
 
 1. 가독성
+
 2. 중복의 제거
+
 3. 의도에 맞게 작업
+
+   ​
 
 
 
@@ -97,7 +107,10 @@ p  { color:red; padding:5px;}
 디자인의 용도로 사용할 수 있는 태그
 
 - div 는 block line element
+
 - span은 inline element
+
+  ​
 
 
 
@@ -107,3 +120,18 @@ display:grid; //그리드
 
 **grid-template-columns: 150px 1fr**; //첫번째 div는 150픽셀의 열로 고정. 나머지는 자동으로 지정됨
 
+
+
+> 반응형 웹 (mediaquery)
+
+- 반응형 웹이란 기기마다 다른 화면크기에 맞춰 다른 정보를 보여주는 웹
+
+  @media(max-width:800px){	//크기가 800보다 작으면
+
+​                div{
+
+​                    display:none;	//아무것도 안보임
+
+​                }
+
+​            }
